@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./src/styles.css" />
+  </head>
+
+  <body>
+    <div class="navbar">
+      <div class="navitem"><i class="fa-solid fa-house"></i> Home</div>
+      <div class="navitem">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        Search
+      </div>
+      <div class="navitem"><i class="fa-solid fa-envelope"></i> Contact</div>
+      <div class="navitem"><i class="fa-solid fa-user"></i> Login</div>
+    </div>
+
+    <div id="articalView">
+      <div class="articalPicContainer">
+        <img
+          class="articalPic"
+          src="https://hips.hearstapps.com/hmg-prod/images/little-cute-maltipoo-puppy-royalty-free-image-1652926025.jpg?crop=0.444xw:1.00xh;0.129xw,0&resize=980:*"
+        />
+      </div>
+      <div class="txt">
+        <h2>Title</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum
+        </p>
+      </div>
+    </div>
+
+    <div id="shoppingCart">
+      <div class="form">
+        <div class="infoForm">
+          <div class="left">
+            <h2>Billing Address</h2>
+            <label for="fname"
+              ><i class="fa-solid fa-user"></i> First name:</label
+            >
+            <input type="text" id="fname" placeholder="smith" />
+
+            <label for="email"
+              ><i class="fa-solid fa-envelope"></i> Email:</label
+            >
+            <input type="text" id="email" placeholder="abc@gmail.com" />
+
+            <label for="address">Address:</label>
+            <input type="text" id="address" placeholder="123 smith Ave" />
+
+            <label for="city">City:</label>
+            <input type="text" id="city" placeholder="Beijing" />
+
+            <div class="formShort">
+              <div class="fs50">
+                <label for="state">State: </label
+                ><input
+                  type="text"
+                  id="state"
+                  placeholder="CA"
+                  class="shortInput"
+                />
+              </div>
+              <div class="fs50">
+                <label for="zip">Zip: </label>
+                <input
+                  type="text"
+                  id="zip"
+                  placeholder="94402"
+                  class="shortInput"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="right">
+            <h2>Payment</h2>
+            <p>Aceepet Payment</p>
+            <p class="cartIcon">
+              <i class="fa-regular fa-credit-card"></i
+              ><i class="fa-regular fa-credit-card"></i
+              ><i class="fa-regular fa-credit-card"></i
+              ><i class="fa-regular fa-credit-card"></i>
+            </p>
+
+            <label for="nameOnCard">Name on card:</label>
+            <input type="text" id="nameOnCard" />
+
+            <label for="cardNum">Credit Card Number:</label>
+            <input type="text" id="cardNum" />
+
+            <label for="expMonth">Exp Month:</label>
+            <input type="text" id="expMonth" />
+
+            <div class="formShort">
+              <div class="fs50">
+                <label for="expYear">Exp Year: </label
+                ><input class="shortInput" type="text" id="expYear" />
+              </div>
+              <div class="fs50">
+                <label for="cvv">CVV:</label
+                ><input class="shortInput" type="text" id="cvv" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="infoFormCheckbox">
+          <label for="billAdress"
+            ><input type="checkbox" id="billAdress" />Shipping address same as
+            billing
+          </label>
+        </div>
+        <div class="infoFormButton">
+          <button>Submitt</button>
+        </div>
+      </div>
+
+      <div class="cart">
+        <div class="cartContent">
+          <h2>Cart<span class="price">4</span></h2>
+          <p><a href="#">product 1 </a><span class="price">$15</span></p>
+          <p><a href="#">product 2 </a><span class="price">$5</span></p>
+          <p><a href="#">product 3 </a><span class="price">$1</span></p>
+          <p><a href="#">product 4 </a><span class="price">$15</span></p>
+          <h2 class="cartEnd">Total<span class="price">$15</span></h2>
+        </div>
+      </div>
+    </div>
+
+    <div id="time">
+      <div class="timeLine" id="timeLeft">
+        <div class="timeLinebox leftbox">
+          <div class="content">
+            <h1>2021</h1>
+            <p>ahsdjncz sjadnjkdni</p>
+          </div>
+          <div class="leftTri"></div>
+          <div class="leftCri"></div>
+        </div>
+        <div class="timeLinebox leftbox">
+          <div class="content">
+            <h1>2023</h1>
+            <p>ahsdjncz sjadnjkdni</p>
+          </div>
+          <div class="leftTri"></div>
+          <div class="leftCri"></div>
+        </div>
+      </div>
+      <div class="timeLine" id="timeRight">
+        <div class="timeLinebox rightbox">
+          <div class="content">
+            <h1>2022</h1>
+            <p>ahsdjncz sjadnjkdni</p>
+          </div>
+          <div class="rightTri"></div>
+          <div class="rightCri"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

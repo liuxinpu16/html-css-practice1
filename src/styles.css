@@ -1,0 +1,200 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.navbar {
+  background-color: #333333;
+  display: flex;
+  color: white;
+}
+
+.navitem {
+  padding: 15px 20px;
+}
+
+.navitem:hover {
+  background-color: green;
+}
+
+#articalView {
+  border: 1px black solid;
+  margin: 100px 20%;
+  overflow: auto;
+}
+
+.articalPicContainer {
+  float: left;
+  width: 33.33%;
+  padding: 20px;
+}
+
+.articalPic {
+  width: 100%;
+}
+
+#shoppingCart {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.form {
+  margin: 0 0 0 5%;
+  flex: 1 1 50%;
+  border: 1px black solid;
+  border-radius: 10px;
+  display: flex;
+
+  background-color: gainsboro;
+  flex-direction: column;
+}
+
+.left {
+  margin: 0 0 0 5%;
+  flex: 1 1 100px;
+}
+
+.right {
+  margin: 0 0 0 5%;
+  flex: 1 1 100px;
+}
+
+label {
+  display: block;
+}
+.infoForm {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.formShort {
+  display: flex;
+  flex-wrap: wrap;
+}
+.fs50 {
+  flex: 50%;
+}
+.shortInput {
+  width: 70px;
+}
+
+.infoFormCheckbox {
+  margin: 2% 5%;
+}
+.infoFormButton {
+  margin: 0 5% 3%;
+}
+
+.infoFormButton button {
+  background-color: #04aa6d;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.infoFormButton button:hover {
+  background-color: #04aa6d;
+}
+
+.cart {
+  margin: 0 5%;
+  flex: 1 1 25%;
+  border: none;
+  background-color: white;
+}
+
+.cartContent {
+  padding: 0 5%;
+  border: 1px black solid;
+  border-radius: 10px;
+  background-color: gainsboro;
+}
+.cartIcon {
+  margin: 0;
+  padding: 0;
+}
+.cartEnd {
+  padding: 2% 0 0 0;
+  border-top: 1px black solid;
+}
+
+.price {
+  float: right;
+}
+
+#time {
+  display: flex;
+  justify-content: center;
+}
+
+.timeLine {
+  width: 45%;
+  height: 600px;
+  background-color: gray;
+  margin: 40px 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+#timeLeft {
+  justify-content: space-around;
+}
+
+.timeLinebox {
+  background-color: white;
+  width: 80%;
+  height: 30%;
+  margin: 0 5% 0 15%;
+  border-radius: 10px;
+  position: relative;
+}
+
+.leftTri {
+  position: absolute;
+  top: 5%;
+  right: -5%;
+  z-index: 1;
+  border-bottom: 15px transparent solid;
+  border-left: 40px white solid;
+  border-top: 15px transparent solid;
+}
+.leftCri {
+  position: absolute;
+  top: 5%;
+  right: -10%;
+  border: 15px orange solid;
+  border-radius: 50%;
+}
+
+.rightTri {
+  position: absolute;
+  top: 5%;
+  left: -5%;
+  z-index: 1;
+  border-bottom: 15px transparent solid;
+  border-right: 40px white solid;
+  border-top: 15px transparent solid;
+}
+.rightCri {
+  position: absolute;
+  top: 5%;
+  left: -10%;
+  border: 15px orange solid;
+  border-radius: 50%;
+}
+.content {
+  padding: 20px;
+}
+
+#timeRight {
+  justify-content: center;
+}
+
+.rightbox {
+  margin: 0 15% 0 5%;
+}
